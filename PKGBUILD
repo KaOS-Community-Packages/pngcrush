@@ -8,8 +8,8 @@ license=('custom')
 depends=('libpng')
 source=("http://downloads.sourceforge.net/pmt/$pkgname-$pkgver-nolib.tar.xz"
         LICENSE)
-sha512sums=('8022b23ddcbafac95c11d55affdfe64d'
-         'e6446a786d939c98fcada57f9ae6de1f')
+sha512sums=('7b959fc6a8839fb0dab6471b13e866e11d5fefa072d6b135c7f621bd4b475765c2e8d0b471f074b6df7d6ccd8b5c33938e1143fb2e013986c4e8e5fada68c8ca'
+            'f18613b9da9b4f31a317411e726def5122246087ff57887fba6b46f0a7a7fae7109388ecb2ce049bbe992cc6ef0a3fbbe0f5c5bc816705efd7583836cbd4e69d')
 
 build() {
     cd "$srcdir"/$pkgname-$pkgver-nolib
